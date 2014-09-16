@@ -44,7 +44,19 @@ It's very easy to use, just go to any view files of your application and include
 meta_tags();
 ```
 
-When your page is loaded, the meta tags will be injected automactically
+When your page is loaded, the meta tags will be injected automactically.
+
+It is recommended that this line should be included inside the head section of your HTML document. Something like this:
+
+```php
+<head>
+	<title>My Site</title>
+	<?php
+		meta_tags();
+	?>
+
+</head>
+```
 
 ##Customizations
 
