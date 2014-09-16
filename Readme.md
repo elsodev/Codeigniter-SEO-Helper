@@ -35,7 +35,7 @@ Example:
 ```php
 $config['seo_title'] = 'My website - Get freebies - Awesomeness';
 $config['seo_desc'] = 'Something intesresting';
-$config['seo_imgurl'] = 'http://something.com/something.jpg'
+$config['seo_imgurl'] = 'http://something.com/something.jpg';
 ```
 
 ## Usages
@@ -66,7 +66,7 @@ $e = array(
 meta_tags($e, $title = '', $desc = '', $imgurl ='', $url = '');
 ```
 Just change the true to false to disable them.
-You can also customize the title, desc, image url and url for certain pages.
+You can also customize the title, desc, image url and url for certain pages by changing the values of $title, $desc, $imgurl, $url.
 
 **NOTE: If title, desc, image url and url are left empty, it will use the default ones set inside config file.**
 
