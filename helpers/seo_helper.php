@@ -47,7 +47,7 @@ if(! function_exists('meta_tags')){
             $output .= '<meta name="robots" content="index,follow"/>';
 
         } else {
-            $output .= '<meta name="robots" content="index,noindex"/>';
+            $output .= '<meta name="robots" content="noindex,nofollow"/>';
         }
 
 
