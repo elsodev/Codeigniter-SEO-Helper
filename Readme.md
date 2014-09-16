@@ -81,8 +81,10 @@ Just change the true to false to disable them.
 You can also customize the title, desc, image url and url for certain pages by changing the values of $title, $desc, $imgurl, $url.
 
 **NOTE: If title, desc, image url are left empty, it will use the default ones set inside config file.**
-For URL, default will be your site base_url
-For robot, default will be index/follow. If set to false it will become noindex/nofollow
+
+
+* For URL, default will be your site base_url
+* For robot, default will be index/follow. If set to false it will become noindex/nofollow
 
 #Follow me on Twitter [@elsodev](http://twitter.com/elsodev)
 
