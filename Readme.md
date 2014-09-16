@@ -27,7 +27,7 @@ Files:
 Example:
 
 ```php
-$autoload['helper'] = array(,'seo_helper');
+$autoload['helper'] = array('seo_helper');
 ```
 
 ## Usages
