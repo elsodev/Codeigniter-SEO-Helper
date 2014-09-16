@@ -24,13 +24,37 @@ Files:
 $autoload['helper'] = array('url','seo_helper');
 ```
 
-## Usage
+## Usages
 It's very easy to use, just go to any view files of your application and include this line:
 ```php
 meta_tags();
 ```
 
 When your page is loaded, the meta tags will be injected automactically
+
+##Customizations
+
+Controlling which meta tags should be injected
+
+Types of Meta Tags included:
+..*Description
+..*Og (Open graph)
+..*Twitter
+..*Robot
+
+```php
+$e = array(
+	'general' => true, //description
+	'og' => true,
+	'twitter'=> true,
+	'robot'=> true
+);
+meta_tags($e, $title = '', $desc = '', $imgurl ='', $url = '')
+```
+Just change the true to false to disable them.
+You can also customize the title, desc, image url and url for certain pages.
+
+**NOTE: If title, desc, image url and url are left empty, it will use the default ones set inside config file.**
 
 
 
