@@ -24,8 +24,10 @@ Files:
 2. Change the title, description and image URL to anything you like.
 (Note: Description maximum 155 characters)
 
+Example:
+
 ```php
-$autoload['helper'] = array('url','seo_helper');
+$autoload['helper'] = array(,'seo_helper');
 ```
 
 ## Usages
@@ -60,7 +62,7 @@ You can also customize the title, desc, image url and url for certain pages.
 
 **NOTE: If title, desc, image url and url are left empty, it will use the default ones set inside config file.**
 
-#Follow me on [@elsodev](http://twitter.com/elsodev)
+#Follow me on Twtter [@elsodev](http://twitter.com/elsodev)
 
 
 
