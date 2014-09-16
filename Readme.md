@@ -18,6 +18,12 @@ Files:
 1. Open autoload.php inside of your config folder 
 2. Add seo_helper to the autoload helper
 
+Example:
+
+```php
+$autoload['helper'] = array('seo_helper');
+```
+
 **Step 3**
 
 1. Open up seo_helper you copied earlier
@@ -27,7 +33,9 @@ Files:
 Example:
 
 ```php
-$autoload['helper'] = array('seo_helper');
+$config['seo_title'] = 'My website - Get freebies - Awesomeness';
+$config['seo_desc'] = 'Something intesresting';
+$config['seo_imgurl'] = 'http://something.com/something.jpg'
 ```
 
 ## Usages
