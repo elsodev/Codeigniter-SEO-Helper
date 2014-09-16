@@ -26,7 +26,7 @@ $autoload['helper'] = array('seo_helper');
 
 **Step 3**
 
-1. Open up seo_helper you copied earlier
+1. Open up config/seo_config.php you copied earlier
 2. Change the title, description and image URL to anything you like.
 (Note: Description maximum 155 characters)
 
