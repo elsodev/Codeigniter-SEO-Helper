@@ -10,8 +10,8 @@ Generates Meta tags for description, open graph, Twitter & also robots
 Place the files inside config and helpers into the corresponding folders of your CI application.
 Files:
 
-1. config/seo_config
-2. helpers/seo_helper
+1. config/seo_config.php
+2. helpers/seo_helper.php 
 
 **Step 2**
 
