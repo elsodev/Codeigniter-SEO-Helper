@@ -2,15 +2,16 @@
 /**
  * SEO Helper
  *
- * Generates Meta tags for search engines optimizations, facebook, twitter and Google+
+ * Generates Meta tags for search engines optimizations, open graph, twitter, robots
  *
  * @author		Elson Tan (elsodev.com, Twitter: @elsodev)
+ * @version     1.0
  */
 
 /**
  * SEO General Meta Tags
  *
- * Generates general meta tags for description, twitter, facebook and google+
+ * Generates general meta tags for description, open graph, twitter, robots
  * Using title, description and image link from config file as default
  *
  * @access  public
