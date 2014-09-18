@@ -24,17 +24,20 @@
 
 if(! function_exists('meta_tags')){
     function meta_tags($enable = array('general' => true, 'og'=> true, 'twitter'=> true, 'robot'=> true), $title = '', $desc = '', $imgurl ='', $url = ''){
+        $CI =& get_instance();
+        $CI->config->load('seo_config');
+
         $output = '';
 
         //uses default set in seo_config.php
         if($title == ''){
-            $title = config_item('seo_title', 'seo_config');
+            $title = $CI->config->item('seo_title');
         }
         if($desc == ''){
-            $desc = config_item('seo_desc', 'seo_config');
+            $desc = $CI->config->item('seo_desc');
         }
         if($imgurl == ''){
-            $imgurl = config_item('seo_imgurl', 'seo_config');
+            $imgurl = $CI->config->item('seo_imgurl');
         }
         if($url == ''){
             $url = base_url();
@@ -48,7 +51,7 @@ if(! function_exists('meta_tags')){
             $output .= '<meta name="robots" content="index,follow"/>';
 
         } else {
-            $output .= '<meta name="robots" content="noindex,nofollow"/>';
+            $output .= '<meta name="robots" content="index,noindex"/>';
         }
 
 
@@ -73,4 +76,3 @@ if(! function_exists('meta_tags')){
 
 
     }
-}
