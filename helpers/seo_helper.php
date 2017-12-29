@@ -76,3 +76,4 @@ if(! function_exists('meta_tags')){
 
 
     }
+}
